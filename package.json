@@ -1,0 +1,31 @@
+{
+  "name": "nagasawa-typing-game",
+  "version": "0.0.1",
+  "description": "a lesson of React with nagasawa",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-cli serve --content-base src --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmiya-dev/nagasawa-typing-game.git"
+  },
+  "author": "Takeshi Miyakawa & Hiroyuki Nagasawa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tmiya-dev/nagasawa-typing-game/issues"
+  },
+  "homepage": "https://github.com/tmiya-dev/nagasawa-typing-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
